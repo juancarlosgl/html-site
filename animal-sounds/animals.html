@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="refresh" content="5;"/>
+    <style>
+      div.initial {
+        font-size: 200px;
+        color: red;
+      }
+      div.english {
+        font-size: 100px;
+        color: blue;
+      }
+      div {
+        font-size: 100px;
+      }
+    </style>
+    <script>
+      function playSound(animal) {
+        var audio = new Audio(animal);
+        audio.play();
+      }
+    </script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td align="center">
+          <div onclick="playSound('./mp3/zebra.mp3');">Cebra</div>
+        </td>
+        <td align="center">
+          <div onclick="playSound('./mp3/elephant.mp3');">Elefante</div>
+        </td>
+        <td align="center">
+          <div onclick="playSound('./mp3/gorilla.mp3');">Gorila</div>
+        </td>
+        <td align="center">
+          <div onclick="playSound('./mp3/lyon.mp3');">Leon</div>
+        </td>
+      </tr>
+      <tr>
+        <td width="400" align="center">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNqFsDo5wmmu-temi2OdfHu1dn7VRzlUEIQ&usqp=CAU" width="200" onclick="playSound('./mp3/zebra.mp3');"/>
+        </td>
+        <td width="400" align="center">
+          <img src="https://st.depositphotos.com/2400497/2908/v/600/depositphotos_29088727-stock-illustration-cartoon-elephant.jpg" width="400" onclick="playSound('./mp3/elephant.mp3');"/>
+        </td>
+        <td width="400" align="center">
+          <img src="data:image/jpeg;base64,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" width="300" onclick="playSound('./mp3/gorilla.mp3');"/>
+        </td>
+        <td width="400" align="center">
+          <img src="https://static.vecteezy.com/system/resources/previews/009/221/363/original/baby-lion-kids-drawing-icon-cartoon-lion-king-mascot-illustration-free-vector.jpg" width="300" onclick="playSound('./mp3/lyon.mp3');"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div onclick="playSound('./mp3/zebra.mp3');" class="english">Zebra</div>
+        </td>
+        <td>
+          <div onclick="playSound('./mp3/elephant.mp3');" class="english">Elefant</div>
+        </td>
+        <td>
+          <div onclick="playSound('./mp3/gorilla.mp3');" class="english">Gorilla</div>
+        </td>
+        <td>
+          <div onclick="playSound('./mp3/lyon.mp3');" class="english">Lyon</div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

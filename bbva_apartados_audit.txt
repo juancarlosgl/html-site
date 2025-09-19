@@ -1,0 +1,21 @@
+Cta. HSBC           6,000
+
+Cta. Scotiabank     6,000
+
+Cta. BBVA             484.10
+-                     400          Moved to bnmx
+                       84.10
+
+Cta. BNMX           4,001.56       TC simplicity payed 11,423.44
+
+Hipoteca           30,000
+-                  15,025
+                   14,975
+-                     500          Tacos
+                   14,475
+
+Leo                 6,500
+
+Litos               6,500
+
+Retiro              2,000
